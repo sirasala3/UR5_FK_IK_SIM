@@ -27,7 +27,7 @@ sixDOF_robot_ws/
 │   │   └── conversions.py              # Pose/transform utilities
 │   ├── launch/
 │   │   └── ur5_rviz_view.launch.py     # Visualization launch file
-│   ├── tests_added/                    # Pytest test suite
+│   ├── test                            # Pytest test suite
 │   ├── package.xml                     # ROS package manifest
 │   ├── setup.py                        # Python package setup
 │   └── setup_workspace.sh              # Automated workspace setup
@@ -35,7 +35,7 @@ sixDOF_robot_ws/
 └── README.md                           # Installation guide
 ```
 
-## 🤔 Design Decisions
+## Design Decisions
 - This project is built upon ROS 2 Jazzy, leveraging its modern, real-time-capable architecture for efficient inter-node communication. As a Long-Term Support (LTS) release, it provides a stable environment for long-term development. The system's cross-platform nature and its integration with the extensive ROS ecosystem—including tools like RViz and MoveIt—streamlined the development process and enabled powerful visualization capabilities.
 - The Universal Robots UR5 was selected as the robot platform. It's a widely-used 6-DOF collaborative robot, making it an excellent choice for real-world application. Its well-documented kinematics and publicly available models provided a solid foundation for implementing custom control algorithms and understanding advanced robotics concepts in a practical setting.
 - A custom Inverse Kinematics (IK) implementation was developed to demonstrate a deeper understanding of robotics fundamentals. This hybrid approach combines the speed of an analytical solver with the accuracy of a Damped Least Squares (DLS) method. This choice provides complete control over the solver's behavior and offers a transparent view of the underlying algorithms, which is not possible with black-box libraries.
@@ -95,7 +95,7 @@ source install/setup.bash
 echo "source ~/sixDOF_robot_ws/install/setup.bash" >> ~/.bashrc
 ```
 
-## 🎮 Usage
+## Usage
 
 ### Launch System
 Open two terminals:
@@ -231,9 +231,7 @@ steps = max(1, int(duration * 25))  # Instead of 50
 max_iters = 20  # Instead of 12
 ```
 
-## 🧪 Testing
-
-The system includes comprehensive testing at multiple levels:
+## Testing
 
 ### Unit Tests
 ```bash
