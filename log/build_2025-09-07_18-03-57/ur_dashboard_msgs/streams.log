@@ -1,0 +1,737 @@
+[0.077s] Invoking command in '/home/shiva/sixDOF_robot_ws_full_checks/build/ur_dashboard_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shiva/ur5_ws/install/ur5_sim_py_node:/home/shiva/moveit2_ws/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/shiva/sixDOF_robot_ws_full_checks/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs -DCMAKE_INSTALL_PREFIX=/home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs
+[2.296s] -- The C compiler identification is GNU 13.3.0
+[3.846s] -- The CXX compiler identification is GNU 13.3.0
+[4.073s] -- Detecting C compiler ABI info
+[4.648s] -- Detecting C compiler ABI info - done
+[4.668s] -- Check for working C compiler: /usr/bin/cc - skipped
+[4.669s] -- Detecting C compile features
+[4.689s] -- Detecting C compile features - done
+[4.734s] -- Detecting CXX compiler ABI info
+[5.069s] -- Detecting CXX compiler ABI info - done
+[5.102s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[5.103s] -- Detecting CXX compile features
+[5.104s] -- Detecting CXX compile features - done
+[7.196s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[7.820s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[8.610s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[8.741s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[9.835s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[10.223s] -- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[10.256s] -- Found action_msgs: 2.0.3 (/opt/ros/jazzy/share/action_msgs/cmake)
+[12.123s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[12.981s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[14.058s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[14.110s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[14.350s] -- Found PythonExtra: /usr/bin/python3  
+[15.127s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[15.260s] -- Configuring done (14.7s)
+[15.372s] -- Generating done (0.1s)
+[15.395s] -- Build files have been written to: /home/shiva/sixDOF_robot_ws_full_checks/build/ur_dashboard_msgs
+[15.416s] Invoked command in '/home/shiva/sixDOF_robot_ws_full_checks/build/ur_dashboard_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shiva/ur5_ws/install/ur5_sim_py_node:/home/shiva/moveit2_ws/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/shiva/sixDOF_robot_ws_full_checks/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs -DCMAKE_INSTALL_PREFIX=/home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs
+[15.419s] Invoking command in '/home/shiva/sixDOF_robot_ws_full_checks/build/ur_dashboard_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shiva/ur5_ws/install/ur5_sim_py_node:/home/shiva/moveit2_ws/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/shiva/sixDOF_robot_ws_full_checks/build/ur_dashboard_msgs -- -j8 -l8
+[15.581s] [  0%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[15.614s] [  0%] Built target ament_cmake_python_copy_ur_dashboard_msgs
+[15.992s] running egg_info
+[15.993s] creating ur_dashboard_msgs.egg-info
+[16.026s] writing ur_dashboard_msgs.egg-info/PKG-INFO
+[16.026s] writing dependency_links to ur_dashboard_msgs.egg-info/dependency_links.txt
+[16.027s] writing top-level names to ur_dashboard_msgs.egg-info/top_level.txt
+[16.027s] writing manifest file 'ur_dashboard_msgs.egg-info/SOURCES.txt'
+[16.124s] reading manifest file 'ur_dashboard_msgs.egg-info/SOURCES.txt'
+[16.124s] writing manifest file 'ur_dashboard_msgs.egg-info/SOURCES.txt'
+[16.190s] [  0%] Built target ament_cmake_python_build_ur_dashboard_msgs_egg
+[16.435s] [  0%] Built target ur_dashboard_msgs__rosidl_generator_type_description
+[16.461s] [  0%] [34m[1mGenerating C code for ROS interfaces[0m
+[16.493s] [  0%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[18.824s] [  0%] Built target ur_dashboard_msgs__cpp
+[19.415s] [  2%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/msg/detail/program_state__type_support.c.o[0m
+[19.415s] [  2%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/msg/detail/robot_mode__description.c.o[0m
+[19.418s] [  3%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/msg/detail/robot_mode__functions.c.o[0m
+[19.420s] [  3%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/msg/detail/program_state__description.c.o[0m
+[19.421s] [  4%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/msg/detail/robot_mode__type_support.c.o[0m
+[19.421s] [  4%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/msg/detail/safety_mode__description.c.o[0m
+[19.421s] [  5%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/msg/detail/safety_mode__functions.c.o[0m
+[19.426s] [  5%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/msg/detail/program_state__functions.c.o[0m
+[19.654s] [  5%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/msg/detail/safety_mode__type_support.c.o[0m
+[19.660s] [  6%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/add_to_log__description.c.o[0m
+[19.694s] [  8%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/get_loaded_program__description.c.o[0m
+[19.694s] [  8%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/add_to_log__functions.c.o[0m
+[19.697s] [  8%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/add_to_log__type_support.c.o[0m
+[19.730s] [  8%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/get_loaded_program__functions.c.o[0m
+[19.807s] [  9%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/get_loaded_program__type_support.c.o[0m
+[19.821s] [  9%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/get_program_state__description.c.o[0m
+[19.827s] [ 10%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/get_program_state__functions.c.o[0m
+[19.833s] [ 11%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/get_program_state__type_support.c.o[0m
+[19.837s] [ 11%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/get_robot_mode__description.c.o[0m
+[19.847s] [ 12%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/get_robot_mode__functions.c.o[0m
+[19.878s] [ 12%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/get_robot_mode__type_support.c.o[0m
+[19.901s] [ 13%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/get_safety_mode__description.c.o[0m
+[19.925s] [ 13%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/get_safety_mode__functions.c.o[0m
+[19.938s] [ 14%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/get_safety_mode__type_support.c.o[0m
+[19.957s] [ 15%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/is_program_running__description.c.o[0m
+[19.961s] [ 15%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/is_program_running__functions.c.o[0m
+[19.985s] [ 16%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/is_program_running__type_support.c.o[0m
+[20.000s] [ 16%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/is_program_saved__description.c.o[0m
+[20.018s] [ 17%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/is_program_saved__functions.c.o[0m
+[20.021s] [ 17%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/is_program_saved__type_support.c.o[0m
+[20.037s] [ 18%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/load__description.c.o[0m
+[20.083s] [ 19%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/load__functions.c.o[0m
+[20.091s] [ 19%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/load__type_support.c.o[0m
+[20.109s] [ 20%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/popup__description.c.o[0m
+[20.119s] [ 20%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/popup__functions.c.o[0m
+[20.130s] [ 21%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/popup__type_support.c.o[0m
+[20.131s] [ 21%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/raw_request__description.c.o[0m
+[20.167s] [ 22%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/raw_request__functions.c.o[0m
+[20.193s] [ 23%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/raw_request__type_support.c.o[0m
+[20.195s] [ 23%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/is_in_remote_control__description.c.o[0m
+[20.228s] [ 24%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/is_in_remote_control__functions.c.o[0m
+[20.237s] [ 24%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/is_in_remote_control__type_support.c.o[0m
+[20.251s] [ 25%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/action/detail/set_mode__description.c.o[0m
+[20.252s] [ 26%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/action/detail/set_mode__functions.c.o[0m
+[20.288s] [ 26%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/action/detail/set_mode__type_support.c.o[0m
+[20.513s] [ 27%] [32m[1mLinking C shared library libur_dashboard_msgs__rosidl_generator_c.so[0m
+[20.784s] [ 27%] Built target ur_dashboard_msgs__rosidl_generator_c
+[20.816s] [ 29%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[20.816s] [ 29%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[20.817s] [ 31%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[20.817s] [ 31%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[20.817s] [ 31%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[20.819s] [ 31%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[22.422s] [ 32%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/msg/program_state__type_support.cpp.o[0m
+[22.425s] [ 32%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/msg/robot_mode__type_support.cpp.o[0m
+[22.426s] [ 33%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/msg/safety_mode__type_support.cpp.o[0m
+[22.454s] [ 33%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/msg/program_state__type_support.cpp.o[0m
+[22.754s] [ 35%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/msg/safety_mode__type_support.cpp.o[0m
+[22.756s] [ 35%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/msg/robot_mode__type_support.cpp.o[0m
+[22.756s] [ 35%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/srv/add_to_log__type_support.cpp.o[0m
+[22.865s] [ 36%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/srv/get_loaded_program__type_support.cpp.o[0m
+[22.961s] [ 36%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/srv/get_program_state__type_support.cpp.o[0m
+[23.090s] [ 37%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/srv/get_robot_mode__type_support.cpp.o[0m
+[23.235s] [ 38%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/srv/get_safety_mode__type_support.cpp.o[0m
+[23.376s] [ 38%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/srv/is_program_running__type_support.cpp.o[0m
+[23.511s] [ 39%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/srv/is_program_saved__type_support.cpp.o[0m
+[23.646s] [ 39%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/srv/load__type_support.cpp.o[0m
+[23.732s] [ 40%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/srv/popup__type_support.cpp.o[0m
+[23.738s] [ 40%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/srv/add_to_log__type_support.cpp.o[0m
+[23.749s] [ 40%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/srv/raw_request__type_support.cpp.o[0m
+[23.791s] [ 41%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/srv/is_in_remote_control__type_support.cpp.o[0m
+[23.846s] [ 42%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/srv/get_loaded_program__type_support.cpp.o[0m
+[23.864s] [ 42%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/srv/get_program_state__type_support.cpp.o[0m
+[23.917s] [ 43%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/action/set_mode__type_support.cpp.o[0m
+[24.063s] [ 43%] [32m[1mLinking CXX shared library libur_dashboard_msgs__rosidl_typesupport_c.so[0m
+[24.095s] [ 43%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/msg/detail/program_state__type_support.cpp.o[0m
+[24.218s] [ 43%] Built target ur_dashboard_msgs__rosidl_typesupport_c
+[24.247s] [ 44%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/msg/detail/robot_mode__type_support.cpp.o[0m
+[24.351s] [ 45%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/msg/detail/program_state__type_support.c.o[0m
+[24.466s] [ 45%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/msg/detail/robot_mode__type_support.c.o[0m
+[24.581s] [ 46%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/msg/detail/safety_mode__type_support.c.o[0m
+[24.675s] [ 46%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/srv/detail/add_to_log__type_support.c.o[0m
+[24.775s] [ 47%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/srv/detail/get_loaded_program__type_support.c.o[0m
+[24.819s] [ 48%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/msg/detail/safety_mode__type_support.cpp.o[0m
+[24.887s] [ 49%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/srv/detail/get_program_state__type_support.c.o[0m
+[24.925s] [ 49%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/srv/detail/add_to_log__type_support.cpp.o[0m
+[25.019s] [ 49%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/srv/detail/get_robot_mode__type_support.c.o[0m
+[25.101s] [ 50%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/srv/detail/get_safety_mode__type_support.c.o[0m
+[25.124s] [ 51%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/srv/get_robot_mode__type_support.cpp.o[0m
+[25.125s] [ 52%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/srv/detail/get_loaded_program__type_support.cpp.o[0m
+[25.170s] [ 52%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/srv/detail/get_program_state__type_support.cpp.o[0m
+[25.250s] [ 52%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/srv/detail/is_program_running__type_support.c.o[0m
+[25.378s] [ 53%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/srv/detail/is_program_saved__type_support.c.o[0m
+[25.500s] [ 53%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/srv/get_safety_mode__type_support.cpp.o[0m
+[25.501s] [ 53%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/srv/detail/load__type_support.c.o[0m
+[25.669s] [ 54%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/srv/detail/popup__type_support.c.o[0m
+[25.746s] [ 55%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/msg/detail/dds_fastrtps/program_state__type_support.cpp.o[0m
+[25.827s] [ 56%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/srv/detail/raw_request__type_support.c.o[0m
+[25.965s] [ 56%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/srv/detail/is_in_remote_control__type_support.c.o[0m
+[25.975s] [ 57%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/action/detail/set_mode__type_support.c.o[0m
+[26.084s] [ 58%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/srv/detail/get_robot_mode__type_support.cpp.o[0m
+[26.117s] [ 58%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/msg/detail/dds_fastrtps/robot_mode__type_support.cpp.o[0m
+[26.125s] [ 58%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/msg/detail/program_state__type_support_c.cpp.o[0m
+[26.146s] [ 58%] [32m[1mLinking C shared library libur_dashboard_msgs__rosidl_typesupport_introspection_c.so[0m
+[26.182s] [ 59%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/srv/is_program_running__type_support.cpp.o[0m
+[26.276s] [ 60%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/msg/detail/dds_fastrtps/safety_mode__type_support.cpp.o[0m
+[26.310s] [ 60%] Built target ur_dashboard_msgs__rosidl_typesupport_introspection_c
+[26.343s] [ 61%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/srv/detail/dds_fastrtps/add_to_log__type_support.cpp.o[0m
+[26.470s] [ 62%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/msg/detail/robot_mode__type_support_c.cpp.o[0m
+[27.063s] [ 62%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/srv/detail/get_safety_mode__type_support.cpp.o[0m
+[27.113s] [ 63%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/srv/is_program_saved__type_support.cpp.o[0m
+[27.162s] [ 63%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/msg/detail/safety_mode__type_support_c.cpp.o[0m
+[27.211s] [ 64%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/srv/detail/is_program_running__type_support.cpp.o[0m
+[27.284s] [ 64%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/srv/detail/dds_fastrtps/get_loaded_program__type_support.cpp.o[0m
+[27.500s] [ 64%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/srv/load__type_support.cpp.o[0m
+[27.533s] [ 65%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/srv/detail/is_program_saved__type_support.cpp.o[0m
+[27.923s] [ 66%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/srv/detail/add_to_log__type_support_c.cpp.o[0m
+[28.056s] [ 67%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/srv/detail/dds_fastrtps/get_program_state__type_support.cpp.o[0m
+[28.057s] [ 67%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/srv/detail/load__type_support.cpp.o[0m
+[28.247s] [ 67%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/srv/detail/get_loaded_program__type_support_c.cpp.o[0m
+[28.379s] [ 68%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/srv/popup__type_support.cpp.o[0m
+[28.522s] [ 68%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/srv/detail/dds_fastrtps/get_robot_mode__type_support.cpp.o[0m
+[28.533s] [ 69%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/srv/detail/get_program_state__type_support_c.cpp.o[0m
+[28.906s] [ 69%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/srv/raw_request__type_support.cpp.o[0m
+[29.059s] [ 70%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/srv/detail/popup__type_support.cpp.o[0m
+[29.255s] [ 71%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/srv/detail/dds_fastrtps/get_safety_mode__type_support.cpp.o[0m
+[29.417s] [ 71%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/srv/detail/raw_request__type_support.cpp.o[0m
+[29.471s] [ 71%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/srv/detail/dds_fastrtps/is_program_running__type_support.cpp.o[0m
+[29.540s] [ 72%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/srv/is_in_remote_control__type_support.cpp.o[0m
+[29.860s] [ 73%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/srv/detail/get_robot_mode__type_support_c.cpp.o[0m
+[29.887s] [ 74%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/srv/detail/is_in_remote_control__type_support.cpp.o[0m
+[30.155s] [ 74%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/action/set_mode__type_support.cpp.o[0m
+[30.161s] [ 74%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/srv/detail/get_safety_mode__type_support_c.cpp.o[0m
+[30.531s] [ 75%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/srv/detail/dds_fastrtps/is_program_saved__type_support.cpp.o[0m
+[30.569s] [ 76%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/srv/detail/is_program_running__type_support_c.cpp.o[0m
+[30.917s] [ 76%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/action/detail/set_mode__type_support.cpp.o[0m
+[30.932s] [ 76%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/srv/detail/is_program_saved__type_support_c.cpp.o[0m
+[31.052s] [ 77%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/srv/detail/load__type_support_c.cpp.o[0m
+[31.127s] [ 78%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/srv/detail/dds_fastrtps/load__type_support.cpp.o[0m
+[31.421s] [ 78%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/srv/detail/dds_fastrtps/popup__type_support.cpp.o[0m
+[31.798s] [ 79%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/srv/detail/dds_fastrtps/raw_request__type_support.cpp.o[0m
+[31.934s] [ 80%] [32m[1mLinking CXX shared library libur_dashboard_msgs__rosidl_typesupport_cpp.so[0m
+[32.107s] [ 80%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/srv/detail/popup__type_support_c.cpp.o[0m
+[32.169s] [ 80%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/srv/detail/dds_fastrtps/is_in_remote_control__type_support.cpp.o[0m
+[32.212s] [ 80%] Built target ur_dashboard_msgs__rosidl_typesupport_cpp
+[32.241s] [ 81%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/srv/detail/raw_request__type_support_c.cpp.o[0m
+[32.331s] [ 82%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/action/detail/dds_fastrtps/set_mode__type_support.cpp.o[0m
+[32.632s] [ 83%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/srv/detail/is_in_remote_control__type_support_c.cpp.o[0m
+[32.783s] [ 84%] [32m[1mLinking CXX shared library libur_dashboard_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[33.030s] [ 84%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/action/detail/set_mode__type_support_c.cpp.o[0m
+[33.122s] [ 84%] Built target ur_dashboard_msgs__rosidl_typesupport_introspection_cpp
+[34.001s] [ 85%] [32m[1mLinking CXX shared library libur_dashboard_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[34.168s] [ 86%] [32m[1mLinking CXX shared library libur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[34.244s] [ 86%] Built target ur_dashboard_msgs__rosidl_typesupport_fastrtps_c
+[34.398s] [ 86%] Built target ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp
+[34.452s] [ 86%] Built target ur_dashboard_msgs
+[34.521s] [ 87%] [34m[1mGenerating Python code for ROS interfaces[0m
+[38.536s] [ 87%] Built target ur_dashboard_msgs__py
+[38.597s] [ 87%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/msg/_safety_mode_s.c.o[0m
+[38.597s] [ 87%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/msg/_program_state_s.c.o[0m
+[38.598s] [ 88%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/msg/_robot_mode_s.c.o[0m
+[38.601s] [ 89%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/srv/_add_to_log_s.c.o[0m
+[38.602s] [ 89%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/srv/_get_program_state_s.c.o[0m
+[38.605s] [ 90%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/srv/_get_loaded_program_s.c.o[0m
+[38.611s] [ 91%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/srv/_get_robot_mode_s.c.o[0m
+[38.617s] [ 91%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/srv/_get_safety_mode_s.c.o[0m
+[39.068s] [ 91%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/srv/_is_program_saved_s.c.o[0m
+[39.075s] [ 92%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/srv/_is_program_running_s.c.o[0m
+[39.099s] [ 93%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/srv/_load_s.c.o[0m
+[39.147s] [ 94%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/srv/_popup_s.c.o[0m
+[39.163s] [ 94%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/srv/_raw_request_s.c.o[0m
+[39.177s] [ 94%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/action/_set_mode_s.c.o[0m
+[39.177s] [ 95%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/srv/_is_in_remote_control_s.c.o[0m
+[39.685s] [ 96%] [32m[1mLinking C shared library libur_dashboard_msgs__rosidl_generator_py.so[0m
+[39.809s] [ 96%] Built target ur_dashboard_msgs__rosidl_generator_py
+[39.867s] [ 98%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/ur_dashboard_msgs/_ur_dashboard_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[39.867s] [ 98%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/ur_dashboard_msgs/_ur_dashboard_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[39.871s] [ 99%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/ur_dashboard_msgs/_ur_dashboard_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[40.299s] [ 99%] [32m[1mLinking C shared module rosidl_generator_py/ur_dashboard_msgs/ur_dashboard_msgs_s__rosidl_typesupport_c.so[0m
+[40.303s] [100%] [32m[1mLinking C shared module rosidl_generator_py/ur_dashboard_msgs/ur_dashboard_msgs_s__rosidl_typesupport_introspection_c.so[0m
+[40.321s] [100%] [32m[1mLinking C shared module rosidl_generator_py/ur_dashboard_msgs/ur_dashboard_msgs_s__rosidl_typesupport_fastrtps_c.so[0m
+[40.385s] [100%] Built target ur_dashboard_msgs_s__rosidl_typesupport_introspection_c
+[40.393s] [100%] Built target ur_dashboard_msgs_s__rosidl_typesupport_c
+[40.407s] [100%] Built target ur_dashboard_msgs_s__rosidl_typesupport_fastrtps_c
+[40.441s] Invoked command in '/home/shiva/sixDOF_robot_ws_full_checks/build/ur_dashboard_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shiva/ur5_ws/install/ur5_sim_py_node:/home/shiva/moveit2_ws/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/shiva/sixDOF_robot_ws_full_checks/build/ur_dashboard_msgs -- -j8 -l8
+[40.445s] Invoking command in '/home/shiva/sixDOF_robot_ws_full_checks/build/ur_dashboard_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shiva/ur5_ws/install/ur5_sim_py_node:/home/shiva/moveit2_ws/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/shiva/sixDOF_robot_ws_full_checks/build/ur_dashboard_msgs
+[40.469s] -- Install configuration: ""
+[40.469s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/share/ament_index/resource_index/rosidl_interfaces/ur_dashboard_msgs
+[40.469s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/share/ur_dashboard_msgs/msg/ProgramState.json
+[40.470s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/share/ur_dashboard_msgs/msg/RobotMode.json
+[40.470s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/share/ur_dashboard_msgs/msg/SafetyMode.json
+[40.471s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/AddToLog.json
+[40.471s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetLoadedProgram.json
+[40.471s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetProgramState.json
+[40.472s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetRobotMode.json
+[40.472s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetSafetyMode.json
+[40.472s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/IsProgramRunning.json
+[40.473s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/IsProgramSaved.json
+[40.473s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/Load.json
+[40.474s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/Popup.json
+[40.474s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/RawRequest.json
+[40.475s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/IsInRemoteControl.json
+[40.475s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/share/ur_dashboard_msgs/action/SetMode.json
+[40.475s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs
+[40.476s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv
+[40.476s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/load.h
+[40.476s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/is_in_remote_control.h
+[40.477s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/get_loaded_program.h
+[40.477s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail
+[40.478s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_in_remote_control__struct.h
+[40.478s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__type_support.c
+[40.478s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__functions.c
+[40.479s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__functions.c
+[40.479s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__type_support.h
+[40.479s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__functions.c
+[40.479s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__functions.h
+[40.480s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__description.c
+[40.480s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__struct.h
+[40.480s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__functions.c
+[40.480s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__functions.h
+[40.481s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_in_remote_control__type_support.h
+[40.481s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__functions.c
+[40.481s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__type_support.c
+[40.481s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__description.c
+[40.481s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__struct.h
+[40.482s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__struct.h
+[40.482s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__type_support.c
+[40.482s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__type_support.h
+[40.482s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__functions.h
+[40.483s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__description.c
+[40.483s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__struct.h
+[40.483s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__type_support.h
+[40.483s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__type_support.h
+[40.484s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__type_support.h
+[40.484s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_in_remote_control__functions.h
+[40.484s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__type_support.h
+[40.484s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__struct.h
+[40.484s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__functions.h
+[40.485s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__functions.h
+[40.485s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_in_remote_control__description.c
+[40.485s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__type_support.c
+[40.485s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__type_support.c
+[40.486s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__functions.h
+[40.486s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__functions.c
+[40.486s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__description.c
+[40.486s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__functions.c
+[40.486s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__type_support.c
+[40.487s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_in_remote_control__functions.c
+[40.487s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__struct.h
+[40.487s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__type_support.c
+[40.487s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_in_remote_control__type_support.c
+[40.488s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__functions.c
+[40.488s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__struct.h
+[40.488s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__type_support.h
+[40.488s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__functions.h
+[40.488s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__struct.h
+[40.489s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__functions.h
+[40.489s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__functions.c
+[40.489s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__description.c
+[40.490s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__functions.c
+[40.490s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__type_support.h
+[40.490s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__type_support.c
+[40.491s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__type_support.h
+[40.491s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__description.c
+[40.492s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__description.c
+[40.492s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__description.c
+[40.492s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__type_support.c
+[40.492s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__description.c
+[40.493s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__functions.h
+[40.493s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__type_support.h
+[40.494s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__struct.h
+[40.494s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__struct.h
+[40.494s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__functions.h
+[40.494s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__type_support.c
+[40.494s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__description.c
+[40.495s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/is_program_running.h
+[40.495s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/get_safety_mode.h
+[40.495s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/is_program_saved.h
+[40.495s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/get_program_state.h
+[40.496s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/popup.h
+[40.496s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/add_to_log.h
+[40.496s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/raw_request.h
+[40.496s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/get_robot_mode.h
+[40.496s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action
+[40.497s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/set_mode.h
+[40.497s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail
+[40.497s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__description.c
+[40.498s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__functions.c
+[40.498s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__type_support.c
+[40.498s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__type_support.h
+[40.499s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__struct.h
+[40.499s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__functions.h
+[40.499s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg
+[40.499s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/safety_mode.h
+[40.500s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail
+[40.500s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__description.c
+[40.500s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__struct.h
+[40.501s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__type_support.c
+[40.501s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__functions.c
+[40.501s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__type_support.h
+[40.502s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__struct.h
+[40.502s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__functions.c
+[40.502s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__type_support.h
+[40.503s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__functions.c
+[40.504s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__type_support.c
+[40.504s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__functions.h
+[40.504s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__type_support.h
+[40.504s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__description.c
+[40.505s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__functions.h
+[40.505s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__type_support.c
+[40.505s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__struct.h
+[40.506s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__description.c
+[40.506s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__functions.h
+[40.507s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/robot_mode.h
+[40.507s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/program_state.h
+[40.507s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/rosidl_generator_c__visibility_control.h
+[40.508s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/share/ur_dashboard_msgs/environment/library_path.sh
+[40.508s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/share/ur_dashboard_msgs/environment/library_path.dsv
+[40.509s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_generator_c.so
+[40.509s] -- Set non-toolchain portion of runtime path of "/home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_generator_c.so" to ""
+[40.509s] -- Up-to-date: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs
+[40.510s] -- Up-to-date: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv
+[40.510s] -- Up-to-date: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail
+[40.510s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__rosidl_typesupport_fastrtps_c.h
+[40.510s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__rosidl_typesupport_fastrtps_c.h
+[40.511s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__rosidl_typesupport_fastrtps_c.h
+[40.511s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__rosidl_typesupport_fastrtps_c.h
+[40.511s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__rosidl_typesupport_fastrtps_c.h
+[40.511s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__rosidl_typesupport_fastrtps_c.h
+[40.511s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_in_remote_control__rosidl_typesupport_fastrtps_c.h
+[40.512s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__rosidl_typesupport_fastrtps_c.h
+[40.512s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__rosidl_typesupport_fastrtps_c.h
+[40.513s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__rosidl_typesupport_fastrtps_c.h
+[40.513s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__rosidl_typesupport_fastrtps_c.h
+[40.514s] -- Up-to-date: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action
+[40.514s] -- Up-to-date: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail
+[40.514s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__rosidl_typesupport_fastrtps_c.h
+[40.514s] -- Up-to-date: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg
+[40.515s] -- Up-to-date: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail
+[40.515s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__rosidl_typesupport_fastrtps_c.h
+[40.515s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__rosidl_typesupport_fastrtps_c.h
+[40.515s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__rosidl_typesupport_fastrtps_c.h
+[40.515s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[40.516s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_fastrtps_c.so
+[40.516s] -- Set non-toolchain portion of runtime path of "/home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[40.516s] -- Up-to-date: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs
+[40.516s] -- Up-to-date: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv
+[40.516s] -- Up-to-date: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail
+[40.517s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__rosidl_typesupport_introspection_c.h
+[40.517s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__type_support.c
+[40.517s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__rosidl_typesupport_introspection_c.h
+[40.517s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__type_support.c
+[40.517s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__type_support.c
+[40.517s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__rosidl_typesupport_introspection_c.h
+[40.518s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__rosidl_typesupport_introspection_c.h
+[40.518s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__rosidl_typesupport_introspection_c.h
+[40.518s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__type_support.c
+[40.518s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__type_support.c
+[40.518s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_in_remote_control__rosidl_typesupport_introspection_c.h
+[40.519s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__rosidl_typesupport_introspection_c.h
+[40.519s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__type_support.c
+[40.519s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__type_support.c
+[40.519s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_in_remote_control__type_support.c
+[40.519s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__type_support.c
+[40.520s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__rosidl_typesupport_introspection_c.h
+[40.520s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__type_support.c
+[40.520s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__rosidl_typesupport_introspection_c.h
+[40.520s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__rosidl_typesupport_introspection_c.h
+[40.520s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__rosidl_typesupport_introspection_c.h
+[40.520s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__type_support.c
+[40.521s] -- Up-to-date: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action
+[40.521s] -- Up-to-date: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail
+[40.521s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__type_support.c
+[40.521s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__rosidl_typesupport_introspection_c.h
+[40.522s] -- Up-to-date: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg
+[40.522s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[40.522s] -- Up-to-date: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail
+[40.523s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__type_support.c
+[40.523s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__rosidl_typesupport_introspection_c.h
+[40.523s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__type_support.c
+[40.523s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__rosidl_typesupport_introspection_c.h
+[40.524s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__type_support.c
+[40.524s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__rosidl_typesupport_introspection_c.h
+[40.524s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_introspection_c.so
+[40.524s] -- Set non-toolchain portion of runtime path of "/home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_introspection_c.so" to ""
+[40.524s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_c.so
+[40.525s] -- Set non-toolchain portion of runtime path of "/home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_c.so" to ""
+[40.525s] -- Up-to-date: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs
+[40.525s] -- Up-to-date: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv
+[40.525s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/load.hpp
+[40.525s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/is_program_running.hpp
+[40.526s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/get_program_state.hpp
+[40.526s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/raw_request.hpp
+[40.526s] -- Up-to-date: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail
+[40.527s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__traits.hpp
+[40.527s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__type_support.hpp
+[40.527s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__struct.hpp
+[40.527s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__builder.hpp
+[40.527s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__type_support.hpp
+[40.528s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__struct.hpp
+[40.528s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__type_support.hpp
+[40.528s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__struct.hpp
+[40.528s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__struct.hpp
+[40.529s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__traits.hpp
+[40.529s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__builder.hpp
+[40.529s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__struct.hpp
+[40.530s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__traits.hpp
+[40.530s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__type_support.hpp
+[40.530s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_in_remote_control__traits.hpp
+[40.530s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__builder.hpp
+[40.530s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__traits.hpp
+[40.531s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__builder.hpp
+[40.531s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_in_remote_control__struct.hpp
+[40.531s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__struct.hpp
+[40.531s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__builder.hpp
+[40.532s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__struct.hpp
+[40.532s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__traits.hpp
+[40.532s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__builder.hpp
+[40.533s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__type_support.hpp
+[40.533s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__struct.hpp
+[40.533s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__traits.hpp
+[40.533s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__type_support.hpp
+[40.533s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__builder.hpp
+[40.534s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__builder.hpp
+[40.534s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_in_remote_control__builder.hpp
+[40.534s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__type_support.hpp
+[40.534s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__type_support.hpp
+[40.534s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__builder.hpp
+[40.535s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__traits.hpp
+[40.535s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__type_support.hpp
+[40.535s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__traits.hpp
+[40.535s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__traits.hpp
+[40.536s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__struct.hpp
+[40.536s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__struct.hpp
+[40.536s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__builder.hpp
+[40.536s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__type_support.hpp
+[40.536s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__traits.hpp
+[40.537s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_in_remote_control__type_support.hpp
+[40.537s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/is_program_saved.hpp
+[40.537s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/popup.hpp
+[40.538s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/add_to_log.hpp
+[40.538s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/get_robot_mode.hpp
+[40.538s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/get_safety_mode.hpp
+[40.538s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/is_in_remote_control.hpp
+[40.539s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/get_loaded_program.hpp
+[40.539s] -- Up-to-date: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action
+[40.540s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/set_mode.hpp
+[40.540s] -- Up-to-date: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail
+[40.540s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__builder.hpp
+[40.540s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__struct.hpp
+[40.540s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__type_support.hpp
+[40.541s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__traits.hpp
+[40.541s] -- Up-to-date: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg
+[40.541s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/robot_mode.hpp
+[40.541s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/safety_mode.hpp
+[40.542s] -- Up-to-date: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail
+[40.542s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__type_support.hpp
+[40.542s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__traits.hpp
+[40.543s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__traits.hpp
+[40.543s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__traits.hpp
+[40.543s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__struct.hpp
+[40.543s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__type_support.hpp
+[40.543s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__builder.hpp
+[40.543s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__struct.hpp
+[40.543s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__builder.hpp
+[40.544s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__struct.hpp
+[40.544s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__builder.hpp
+[40.544s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__type_support.hpp
+[40.544s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/program_state.hpp
+[40.544s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[40.545s] -- Up-to-date: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs
+[40.545s] -- Up-to-date: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv
+[40.545s] -- Up-to-date: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail
+[40.545s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__rosidl_typesupport_fastrtps_cpp.hpp
+[40.545s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__rosidl_typesupport_fastrtps_cpp.hpp
+[40.546s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__rosidl_typesupport_fastrtps_cpp.hpp
+[40.546s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/dds_fastrtps
+[40.546s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__rosidl_typesupport_fastrtps_cpp.hpp
+[40.546s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_in_remote_control__rosidl_typesupport_fastrtps_cpp.hpp
+[40.546s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__rosidl_typesupport_fastrtps_cpp.hpp
+[40.547s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__rosidl_typesupport_fastrtps_cpp.hpp
+[40.547s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__rosidl_typesupport_fastrtps_cpp.hpp
+[40.547s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__rosidl_typesupport_fastrtps_cpp.hpp
+[40.547s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__rosidl_typesupport_fastrtps_cpp.hpp
+[40.548s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__rosidl_typesupport_fastrtps_cpp.hpp
+[40.548s] -- Up-to-date: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action
+[40.548s] -- Up-to-date: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail
+[40.548s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/dds_fastrtps
+[40.548s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__rosidl_typesupport_fastrtps_cpp.hpp
+[40.549s] -- Up-to-date: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg
+[40.549s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[40.549s] -- Up-to-date: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail
+[40.549s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__rosidl_typesupport_fastrtps_cpp.hpp
+[40.550s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/dds_fastrtps
+[40.550s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__rosidl_typesupport_fastrtps_cpp.hpp
+[40.550s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__rosidl_typesupport_fastrtps_cpp.hpp
+[40.550s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.so
+[40.551s] -- Set non-toolchain portion of runtime path of "/home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[40.551s] -- Up-to-date: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs
+[40.551s] -- Up-to-date: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv
+[40.551s] -- Up-to-date: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail
+[40.552s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_in_remote_control__rosidl_typesupport_introspection_cpp.hpp
+[40.552s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__type_support.cpp
+[40.552s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__rosidl_typesupport_introspection_cpp.hpp
+[40.552s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_in_remote_control__type_support.cpp
+[40.552s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__type_support.cpp
+[40.553s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__type_support.cpp
+[40.553s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__rosidl_typesupport_introspection_cpp.hpp
+[40.553s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__rosidl_typesupport_introspection_cpp.hpp
+[40.553s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__rosidl_typesupport_introspection_cpp.hpp
+[40.554s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__type_support.cpp
+[40.554s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__rosidl_typesupport_introspection_cpp.hpp
+[40.554s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__type_support.cpp
+[40.554s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__type_support.cpp
+[40.554s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__rosidl_typesupport_introspection_cpp.hpp
+[40.555s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__type_support.cpp
+[40.555s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__rosidl_typesupport_introspection_cpp.hpp
+[40.555s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__type_support.cpp
+[40.555s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__type_support.cpp
+[40.555s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__rosidl_typesupport_introspection_cpp.hpp
+[40.556s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__rosidl_typesupport_introspection_cpp.hpp
+[40.556s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__rosidl_typesupport_introspection_cpp.hpp
+[40.556s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__type_support.cpp
+[40.556s] -- Up-to-date: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action
+[40.557s] -- Up-to-date: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail
+[40.557s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__rosidl_typesupport_introspection_cpp.hpp
+[40.557s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__type_support.cpp
+[40.558s] -- Up-to-date: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg
+[40.558s] -- Up-to-date: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail
+[40.558s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__type_support.cpp
+[40.558s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__type_support.cpp
+[40.558s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__rosidl_typesupport_introspection_cpp.hpp
+[40.559s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__type_support.cpp
+[40.559s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__rosidl_typesupport_introspection_cpp.hpp
+[40.559s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__rosidl_typesupport_introspection_cpp.hpp
+[40.560s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_introspection_cpp.so
+[40.560s] -- Set non-toolchain portion of runtime path of "/home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[40.560s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_cpp.so
+[40.561s] -- Set non-toolchain portion of runtime path of "/home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_cpp.so" to ""
+[40.561s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/share/ur_dashboard_msgs/environment/pythonpath.sh
+[40.561s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/share/ur_dashboard_msgs/environment/pythonpath.dsv
+[40.561s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs-3.3.3-py3.12.egg-info
+[40.561s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs-3.3.3-py3.12.egg-info/top_level.txt
+[40.562s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs-3.3.3-py3.12.egg-info/dependency_links.txt
+[40.562s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs-3.3.3-py3.12.egg-info/SOURCES.txt
+[40.562s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs-3.3.3-py3.12.egg-info/PKG-INFO
+[40.562s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs
+[40.563s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/ur_dashboard_msgs_s__rosidl_typesupport_c.so
+[40.563s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/ur_dashboard_msgs_s__rosidl_typesupport_fastrtps_c.so
+[40.563s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/srv
+[40.563s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/srv/_raw_request.py
+[40.563s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/srv/_is_in_remote_control_s.c
+[40.564s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/srv/_is_program_saved_s.c
+[40.564s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/srv/_get_robot_mode_s.c
+[40.564s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/srv/_popup.py
+[40.564s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/srv/_load.py
+[40.564s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/srv/_get_program_state_s.c
+[40.565s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/srv/_load_s.c
+[40.565s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/srv/_is_in_remote_control.py
+[40.565s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/srv/__init__.py
+[40.565s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/srv/_get_loaded_program_s.c
+[40.566s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/srv/_popup_s.c
+[40.566s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/srv/_is_program_running_s.c
+[40.566s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/srv/_add_to_log.py
+[40.566s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/srv/_raw_request_s.c
+[40.567s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/srv/_is_program_saved.py
+[40.567s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/srv/_get_program_state.py
+[40.567s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/srv/_is_program_running.py
+[40.567s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/srv/_add_to_log_s.c
+[40.568s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/srv/_get_safety_mode.py
+[40.568s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/srv/_get_robot_mode.py
+[40.568s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/srv/_get_loaded_program.py
+[40.568s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/srv/_get_safety_mode_s.c
+[40.569s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/__init__.py
+[40.569s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/_ur_dashboard_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[40.569s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/action
+[40.569s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/action/__init__.py
+[40.570s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/action/_set_mode.py
+[40.570s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/action/_set_mode_s.c
+[40.570s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/_ur_dashboard_msgs_s.ep.rosidl_typesupport_c.c
+[40.570s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/ur_dashboard_msgs_s__rosidl_typesupport_introspection_c.so
+[40.571s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/msg
+[40.571s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/msg/_robot_mode.py
+[40.571s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/msg/_safety_mode.py
+[40.571s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/msg/_robot_mode_s.c
+[40.572s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/msg/__init__.py
+[40.572s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/msg/_safety_mode_s.c
+[40.572s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/msg/_program_state_s.c
+[40.572s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/msg/_program_state.py
+[40.573s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/_ur_dashboard_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[40.729s] Listing '/home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs'...
+[40.730s] Compiling '/home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/__init__.py'...
+[40.730s] Listing '/home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/action'...
+[40.731s] Compiling '/home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/action/__init__.py'...
+[40.731s] Compiling '/home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/action/_set_mode.py'...
+[40.731s] Listing '/home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/msg'...
+[40.732s] Compiling '/home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/msg/__init__.py'...
+[40.732s] Compiling '/home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/msg/_program_state.py'...
+[40.732s] Compiling '/home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/msg/_robot_mode.py'...
+[40.733s] Compiling '/home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/msg/_safety_mode.py'...
+[40.733s] Listing '/home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/srv'...
+[40.733s] Compiling '/home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/srv/__init__.py'...
+[40.734s] Compiling '/home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/srv/_add_to_log.py'...
+[40.734s] Compiling '/home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/srv/_get_loaded_program.py'...
+[40.734s] Compiling '/home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/srv/_get_program_state.py'...
+[40.735s] Compiling '/home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/srv/_get_robot_mode.py'...
+[40.735s] Compiling '/home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/srv/_get_safety_mode.py'...
+[40.735s] Compiling '/home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/srv/_is_in_remote_control.py'...
+[40.735s] Compiling '/home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/srv/_is_program_running.py'...
+[40.736s] Compiling '/home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/srv/_is_program_saved.py'...
+[40.736s] Compiling '/home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/srv/_load.py'...
+[40.737s] Compiling '/home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/srv/_popup.py'...
+[40.737s] Compiling '/home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/srv/_raw_request.py'...
+[40.744s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/ur_dashboard_msgs_s__rosidl_typesupport_fastrtps_c.so
+[40.745s] -- Set non-toolchain portion of runtime path of "/home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/ur_dashboard_msgs_s__rosidl_typesupport_fastrtps_c.so" to ""
+[40.746s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/ur_dashboard_msgs_s__rosidl_typesupport_introspection_c.so
+[40.747s] -- Set non-toolchain portion of runtime path of "/home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/ur_dashboard_msgs_s__rosidl_typesupport_introspection_c.so" to ""
+[40.747s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/ur_dashboard_msgs_s__rosidl_typesupport_c.so
+[40.749s] -- Set non-toolchain portion of runtime path of "/home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/ur_dashboard_msgs_s__rosidl_typesupport_c.so" to ""
+[40.749s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_generator_py.so
+[40.750s] -- Set non-toolchain portion of runtime path of "/home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_generator_py.so" to ""
+[40.751s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/share/ur_dashboard_msgs/msg/ProgramState.idl
+[40.751s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/share/ur_dashboard_msgs/msg/RobotMode.idl
+[40.752s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/share/ur_dashboard_msgs/msg/SafetyMode.idl
+[40.752s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/AddToLog.idl
+[40.753s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetLoadedProgram.idl
+[40.753s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetProgramState.idl
+[40.753s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetRobotMode.idl
+[40.754s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetSafetyMode.idl
+[40.754s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/IsProgramRunning.idl
+[40.755s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/IsProgramSaved.idl
+[40.756s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/Load.idl
+[40.756s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/Popup.idl
+[40.757s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/RawRequest.idl
+[40.757s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/IsInRemoteControl.idl
+[40.758s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/share/ur_dashboard_msgs/action/SetMode.idl
+[40.759s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/share/ur_dashboard_msgs/msg/ProgramState.msg
+[40.759s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/share/ur_dashboard_msgs/msg/RobotMode.msg
+[40.759s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/share/ur_dashboard_msgs/msg/SafetyMode.msg
+[40.760s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/AddToLog.srv
+[40.760s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetLoadedProgram.srv
+[40.761s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetProgramState.srv
+[40.761s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetRobotMode.srv
+[40.762s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetSafetyMode.srv
+[40.762s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/IsProgramRunning.srv
+[40.763s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/IsProgramSaved.srv
+[40.763s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/Load.srv
+[40.763s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/Popup.srv
+[40.764s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/RawRequest.srv
+[40.764s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/IsInRemoteControl.srv
+[40.764s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/share/ur_dashboard_msgs/action/SetMode.action
+[40.765s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/share/ament_index/resource_index/package_run_dependencies/ur_dashboard_msgs
+[40.765s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/share/ament_index/resource_index/parent_prefix_path/ur_dashboard_msgs
+[40.765s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/share/ur_dashboard_msgs/environment/ament_prefix_path.sh
+[40.766s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/share/ur_dashboard_msgs/environment/ament_prefix_path.dsv
+[40.766s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/share/ur_dashboard_msgs/environment/path.sh
+[40.766s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/share/ur_dashboard_msgs/environment/path.dsv
+[40.767s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/share/ur_dashboard_msgs/local_setup.bash
+[40.767s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/share/ur_dashboard_msgs/local_setup.sh
+[40.767s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/share/ur_dashboard_msgs/local_setup.zsh
+[40.768s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/share/ur_dashboard_msgs/local_setup.dsv
+[40.768s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/share/ur_dashboard_msgs/package.dsv
+[40.769s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/share/ament_index/resource_index/packages/ur_dashboard_msgs
+[40.769s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/export_ur_dashboard_msgs__rosidl_generator_cExport.cmake
+[40.769s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/export_ur_dashboard_msgs__rosidl_generator_cExport-noconfig.cmake
+[40.770s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/export_ur_dashboard_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[40.770s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/export_ur_dashboard_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[40.770s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ur_dashboard_msgs__rosidl_typesupport_introspection_cExport.cmake
+[40.771s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ur_dashboard_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[40.771s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ur_dashboard_msgs__rosidl_typesupport_cExport.cmake
+[40.771s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ur_dashboard_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[40.772s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/export_ur_dashboard_msgs__rosidl_generator_cppExport.cmake
+[40.772s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/export_ur_dashboard_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[40.772s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/export_ur_dashboard_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[40.773s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ur_dashboard_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[40.774s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ur_dashboard_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[40.774s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ur_dashboard_msgs__rosidl_typesupport_cppExport.cmake
+[40.774s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ur_dashboard_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[40.775s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/export_ur_dashboard_msgs__rosidl_generator_pyExport.cmake
+[40.775s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/export_ur_dashboard_msgs__rosidl_generator_pyExport-noconfig.cmake
+[40.776s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/rosidl_cmake-extras.cmake
+[40.776s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[40.777s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[40.777s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[40.777s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[40.778s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[40.778s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[40.778s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ur_dashboard_msgsConfig.cmake
+[40.779s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ur_dashboard_msgsConfig-version.cmake
+[40.779s] -- Installing: /home/shiva/sixDOF_robot_ws_full_checks/install/ur_dashboard_msgs/share/ur_dashboard_msgs/package.xml
+[40.781s] Invoked command in '/home/shiva/sixDOF_robot_ws_full_checks/build/ur_dashboard_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shiva/ur5_ws/install/ur5_sim_py_node:/home/shiva/moveit2_ws/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/shiva/sixDOF_robot_ws_full_checks/build/ur_dashboard_msgs

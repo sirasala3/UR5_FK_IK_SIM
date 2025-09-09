@@ -1,0 +1,16 @@
+[10.761s] Invoking command in '/home/shiva/sixDOF_robot_ws_full_checks/env/lib/python3.12/site-packages/pkg_resources/tests/data/my-test-package-source': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/shiva/sixDOF_robot_ws_full_checks/build/my-test-package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shiva/sixDOF_robot_ws_full_checks/install/my-test-package/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../../../../../build/my-test-package build --build-base /home/shiva/sixDOF_robot_ws_full_checks/build/my-test-package/build install --record /home/shiva/sixDOF_robot_ws_full_checks/build/my-test-package/install.log --single-version-externally-managed
+[11.364s] running egg_info
+[11.366s] creating ../../../../../../../../build/my-test-package/my_test_package.egg-info
+[11.416s] writing ../../../../../../../../build/my-test-package/my_test_package.egg-info/PKG-INFO
+[11.416s] writing dependency_links to ../../../../../../../../build/my-test-package/my_test_package.egg-info/dependency_links.txt
+[11.417s] writing top-level names to ../../../../../../../../build/my-test-package/my_test_package.egg-info/top_level.txt
+[11.417s] writing manifest file '../../../../../../../../build/my-test-package/my_test_package.egg-info/SOURCES.txt'
+[11.457s] reading manifest file '../../../../../../../../build/my-test-package/my_test_package.egg-info/SOURCES.txt'
+[11.458s] writing manifest file '../../../../../../../../build/my-test-package/my_test_package.egg-info/SOURCES.txt'
+[11.459s] running build
+[11.459s] running install
+[11.468s] running install_egg_info
+[11.541s] Copying ../../../../../../../../build/my-test-package/my_test_package.egg-info to /home/shiva/sixDOF_robot_ws_full_checks/install/my-test-package/lib/python3.12/site-packages/my_test_package-1.0-py3.12.egg-info
+[11.542s] running install_scripts
+[11.783s] writing list of installed files to '/home/shiva/sixDOF_robot_ws_full_checks/build/my-test-package/install.log'
+[11.848s] Invoked command in '/home/shiva/sixDOF_robot_ws_full_checks/env/lib/python3.12/site-packages/pkg_resources/tests/data/my-test-package-source' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/shiva/sixDOF_robot_ws_full_checks/build/my-test-package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shiva/sixDOF_robot_ws_full_checks/install/my-test-package/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../../../../../build/my-test-package build --build-base /home/shiva/sixDOF_robot_ws_full_checks/build/my-test-package/build install --record /home/shiva/sixDOF_robot_ws_full_checks/build/my-test-package/install.log --single-version-externally-managed

@@ -1,0 +1,20 @@
+{
+  "package_name": "ur_dashboard_msgs",
+  "non_idl_tuples": [
+    "/home/shiva/sixDOF_robot_ws_full_checks/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs:msg/ProgramState.msg",
+    "/home/shiva/sixDOF_robot_ws_full_checks/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs:msg/RobotMode.msg",
+    "/home/shiva/sixDOF_robot_ws_full_checks/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs:msg/SafetyMode.msg",
+    "/home/shiva/sixDOF_robot_ws_full_checks/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs:srv/AddToLog.srv",
+    "/home/shiva/sixDOF_robot_ws_full_checks/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs:srv/GetLoadedProgram.srv",
+    "/home/shiva/sixDOF_robot_ws_full_checks/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs:srv/GetProgramState.srv",
+    "/home/shiva/sixDOF_robot_ws_full_checks/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs:srv/GetRobotMode.srv",
+    "/home/shiva/sixDOF_robot_ws_full_checks/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs:srv/GetSafetyMode.srv",
+    "/home/shiva/sixDOF_robot_ws_full_checks/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs:srv/IsProgramRunning.srv",
+    "/home/shiva/sixDOF_robot_ws_full_checks/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs:srv/IsProgramSaved.srv",
+    "/home/shiva/sixDOF_robot_ws_full_checks/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs:srv/Load.srv",
+    "/home/shiva/sixDOF_robot_ws_full_checks/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs:srv/Popup.srv",
+    "/home/shiva/sixDOF_robot_ws_full_checks/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs:srv/RawRequest.srv",
+    "/home/shiva/sixDOF_robot_ws_full_checks/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs:srv/IsInRemoteControl.srv",
+    "/home/shiva/sixDOF_robot_ws_full_checks/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs:action/SetMode.action"
+  ]
+}

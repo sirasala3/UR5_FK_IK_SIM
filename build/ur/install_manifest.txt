@@ -1,0 +1,15 @@
+/home/shiva/sixDOF_robot_ws_full_checks/install/ur/share/ament_index/resource_index/package_run_dependencies/ur
+/home/shiva/sixDOF_robot_ws_full_checks/install/ur/share/ament_index/resource_index/parent_prefix_path/ur
+/home/shiva/sixDOF_robot_ws_full_checks/install/ur/share/ur/environment/ament_prefix_path.sh
+/home/shiva/sixDOF_robot_ws_full_checks/install/ur/share/ur/environment/ament_prefix_path.dsv
+/home/shiva/sixDOF_robot_ws_full_checks/install/ur/share/ur/environment/path.sh
+/home/shiva/sixDOF_robot_ws_full_checks/install/ur/share/ur/environment/path.dsv
+/home/shiva/sixDOF_robot_ws_full_checks/install/ur/share/ur/local_setup.bash
+/home/shiva/sixDOF_robot_ws_full_checks/install/ur/share/ur/local_setup.sh
+/home/shiva/sixDOF_robot_ws_full_checks/install/ur/share/ur/local_setup.zsh
+/home/shiva/sixDOF_robot_ws_full_checks/install/ur/share/ur/local_setup.dsv
+/home/shiva/sixDOF_robot_ws_full_checks/install/ur/share/ur/package.dsv
+/home/shiva/sixDOF_robot_ws_full_checks/install/ur/share/ament_index/resource_index/packages/ur
+/home/shiva/sixDOF_robot_ws_full_checks/install/ur/share/ur/cmake/urConfig.cmake
+/home/shiva/sixDOF_robot_ws_full_checks/install/ur/share/ur/cmake/urConfig-version.cmake
+/home/shiva/sixDOF_robot_ws_full_checks/install/ur/share/ur/package.xml

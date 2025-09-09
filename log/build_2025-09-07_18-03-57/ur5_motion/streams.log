@@ -1,0 +1,61 @@
+[10.755s] Invoking command in '/home/shiva/sixDOF_robot_ws_full_checks/src/ur5_motion': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/shiva/sixDOF_robot_ws_full_checks/build/ur5_motion/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shiva/sixDOF_robot_ws_full_checks/install/ur5_motion/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ur5_motion build --build-base /home/shiva/sixDOF_robot_ws_full_checks/build/ur5_motion/build install --record /home/shiva/sixDOF_robot_ws_full_checks/build/ur5_motion/install.log --single-version-externally-managed install_data
+[11.236s] running egg_info
+[11.236s] creating ../../build/ur5_motion/ur5_motion.egg-info
+[11.268s] writing ../../build/ur5_motion/ur5_motion.egg-info/PKG-INFO
+[11.269s] writing dependency_links to ../../build/ur5_motion/ur5_motion.egg-info/dependency_links.txt
+[11.269s] writing entry points to ../../build/ur5_motion/ur5_motion.egg-info/entry_points.txt
+[11.270s] writing requirements to ../../build/ur5_motion/ur5_motion.egg-info/requires.txt
+[11.270s] writing top-level names to ../../build/ur5_motion/ur5_motion.egg-info/top_level.txt
+[11.270s] writing manifest file '../../build/ur5_motion/ur5_motion.egg-info/SOURCES.txt'
+[11.339s] reading manifest file '../../build/ur5_motion/ur5_motion.egg-info/SOURCES.txt'
+[11.340s] writing manifest file '../../build/ur5_motion/ur5_motion.egg-info/SOURCES.txt'
+[11.340s] running build
+[11.341s] running build_py
+[11.341s] creating /home/shiva/sixDOF_robot_ws_full_checks/build/ur5_motion/build
+[11.341s] creating /home/shiva/sixDOF_robot_ws_full_checks/build/ur5_motion/build/lib
+[11.342s] creating /home/shiva/sixDOF_robot_ws_full_checks/build/ur5_motion/build/lib/ur5_motion
+[11.342s] copying ur5_motion/ur5_controller.py -> /home/shiva/sixDOF_robot_ws_full_checks/build/ur5_motion/build/lib/ur5_motion
+[11.343s] copying ur5_motion/__init__.py -> /home/shiva/sixDOF_robot_ws_full_checks/build/ur5_motion/build/lib/ur5_motion
+[11.343s] copying ur5_motion/main.py -> /home/shiva/sixDOF_robot_ws_full_checks/build/ur5_motion/build/lib/ur5_motion
+[11.343s] copying ur5_motion/ur5_controller_gui.py -> /home/shiva/sixDOF_robot_ws_full_checks/build/ur5_motion/build/lib/ur5_motion
+[11.343s] copying ur5_motion/conversions.py -> /home/shiva/sixDOF_robot_ws_full_checks/build/ur5_motion/build/lib/ur5_motion
+[11.343s] copying ur5_motion/robot_description.py -> /home/shiva/sixDOF_robot_ws_full_checks/build/ur5_motion/build/lib/ur5_motion
+[11.344s] copying ur5_motion/ur5_fk.py -> /home/shiva/sixDOF_robot_ws_full_checks/build/ur5_motion/build/lib/ur5_motion
+[11.344s] copying ur5_motion/ur5_ik.py -> /home/shiva/sixDOF_robot_ws_full_checks/build/ur5_motion/build/lib/ur5_motion
+[11.344s] running install
+[11.354s] running install_lib
+[11.397s] creating /home/shiva/sixDOF_robot_ws_full_checks/install/ur5_motion/lib/python3.12/site-packages/ur5_motion
+[11.397s] copying /home/shiva/sixDOF_robot_ws_full_checks/build/ur5_motion/build/lib/ur5_motion/ur5_controller.py -> /home/shiva/sixDOF_robot_ws_full_checks/install/ur5_motion/lib/python3.12/site-packages/ur5_motion
+[11.397s] copying /home/shiva/sixDOF_robot_ws_full_checks/build/ur5_motion/build/lib/ur5_motion/__init__.py -> /home/shiva/sixDOF_robot_ws_full_checks/install/ur5_motion/lib/python3.12/site-packages/ur5_motion
+[11.398s] copying /home/shiva/sixDOF_robot_ws_full_checks/build/ur5_motion/build/lib/ur5_motion/main.py -> /home/shiva/sixDOF_robot_ws_full_checks/install/ur5_motion/lib/python3.12/site-packages/ur5_motion
+[11.398s] copying /home/shiva/sixDOF_robot_ws_full_checks/build/ur5_motion/build/lib/ur5_motion/ur5_controller_gui.py -> /home/shiva/sixDOF_robot_ws_full_checks/install/ur5_motion/lib/python3.12/site-packages/ur5_motion
+[11.399s] copying /home/shiva/sixDOF_robot_ws_full_checks/build/ur5_motion/build/lib/ur5_motion/conversions.py -> /home/shiva/sixDOF_robot_ws_full_checks/install/ur5_motion/lib/python3.12/site-packages/ur5_motion
+[11.399s] copying /home/shiva/sixDOF_robot_ws_full_checks/build/ur5_motion/build/lib/ur5_motion/robot_description.py -> /home/shiva/sixDOF_robot_ws_full_checks/install/ur5_motion/lib/python3.12/site-packages/ur5_motion
+[11.399s] copying /home/shiva/sixDOF_robot_ws_full_checks/build/ur5_motion/build/lib/ur5_motion/ur5_fk.py -> /home/shiva/sixDOF_robot_ws_full_checks/install/ur5_motion/lib/python3.12/site-packages/ur5_motion
+[11.399s] copying /home/shiva/sixDOF_robot_ws_full_checks/build/ur5_motion/build/lib/ur5_motion/ur5_ik.py -> /home/shiva/sixDOF_robot_ws_full_checks/install/ur5_motion/lib/python3.12/site-packages/ur5_motion
+[11.400s] byte-compiling /home/shiva/sixDOF_robot_ws_full_checks/install/ur5_motion/lib/python3.12/site-packages/ur5_motion/ur5_controller.py to ur5_controller.cpython-312.pyc
+[11.405s] byte-compiling /home/shiva/sixDOF_robot_ws_full_checks/install/ur5_motion/lib/python3.12/site-packages/ur5_motion/__init__.py to __init__.cpython-312.pyc
+[11.406s] byte-compiling /home/shiva/sixDOF_robot_ws_full_checks/install/ur5_motion/lib/python3.12/site-packages/ur5_motion/main.py to main.cpython-312.pyc
+[11.406s] byte-compiling /home/shiva/sixDOF_robot_ws_full_checks/install/ur5_motion/lib/python3.12/site-packages/ur5_motion/ur5_controller_gui.py to ur5_controller_gui.cpython-312.pyc
+[11.412s] byte-compiling /home/shiva/sixDOF_robot_ws_full_checks/install/ur5_motion/lib/python3.12/site-packages/ur5_motion/conversions.py to conversions.cpython-312.pyc
+[11.414s] Sorry: IndentationError: expected an indented block after function definition on line 55 (conversions.py, line 56)
+[11.415s] byte-compiling /home/shiva/sixDOF_robot_ws_full_checks/install/ur5_motion/lib/python3.12/site-packages/ur5_motion/robot_description.py to robot_description.cpython-312.pyc
+[11.416s] byte-compiling /home/shiva/sixDOF_robot_ws_full_checks/install/ur5_motion/lib/python3.12/site-packages/ur5_motion/ur5_fk.py to ur5_fk.cpython-312.pyc
+[11.417s] byte-compiling /home/shiva/sixDOF_robot_ws_full_checks/install/ur5_motion/lib/python3.12/site-packages/ur5_motion/ur5_ik.py to ur5_ik.cpython-312.pyc
+[11.418s] running install_data
+[11.419s] creating /home/shiva/sixDOF_robot_ws_full_checks/install/ur5_motion/share/ament_index
+[11.420s] creating /home/shiva/sixDOF_robot_ws_full_checks/install/ur5_motion/share/ament_index/resource_index
+[11.420s] creating /home/shiva/sixDOF_robot_ws_full_checks/install/ur5_motion/share/ament_index/resource_index/packages
+[11.421s] copying resource/ur5_motion -> /home/shiva/sixDOF_robot_ws_full_checks/install/ur5_motion/share/ament_index/resource_index/packages
+[11.421s] copying package.xml -> /home/shiva/sixDOF_robot_ws_full_checks/install/ur5_motion/share/ur5_motion
+[11.422s] creating /home/shiva/sixDOF_robot_ws_full_checks/install/ur5_motion/share/ur5_motion/launch
+[11.422s] copying launch/ur5_full.launch.py -> /home/shiva/sixDOF_robot_ws_full_checks/install/ur5_motion/share/ur5_motion/launch
+[11.423s] copying launch/ur5_demo.launch.py -> /home/shiva/sixDOF_robot_ws_full_checks/install/ur5_motion/share/ur5_motion/launch
+[11.423s] copying launch/ur5_rviz_view.launch.py -> /home/shiva/sixDOF_robot_ws_full_checks/install/ur5_motion/share/ur5_motion/launch
+[11.424s] copying launch/ur5.launch.py -> /home/shiva/sixDOF_robot_ws_full_checks/install/ur5_motion/share/ur5_motion/launch
+[11.424s] running install_egg_info
+[11.466s] Copying ../../build/ur5_motion/ur5_motion.egg-info to /home/shiva/sixDOF_robot_ws_full_checks/install/ur5_motion/lib/python3.12/site-packages/ur5_motion-0.0.1-py3.12.egg-info
+[11.468s] running install_scripts
+[11.738s] Installing ur5_controller script to /home/shiva/sixDOF_robot_ws_full_checks/install/ur5_motion/lib/ur5_motion
+[11.739s] writing list of installed files to '/home/shiva/sixDOF_robot_ws_full_checks/build/ur5_motion/install.log'
+[11.798s] Invoked command in '/home/shiva/sixDOF_robot_ws_full_checks/src/ur5_motion' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/shiva/sixDOF_robot_ws_full_checks/build/ur5_motion/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shiva/sixDOF_robot_ws_full_checks/install/ur5_motion/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ur5_motion build --build-base /home/shiva/sixDOF_robot_ws_full_checks/build/ur5_motion/build install --record /home/shiva/sixDOF_robot_ws_full_checks/build/ur5_motion/install.log --single-version-externally-managed install_data

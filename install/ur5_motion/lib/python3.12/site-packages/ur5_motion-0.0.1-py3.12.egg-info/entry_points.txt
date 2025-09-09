@@ -1,0 +1,2 @@
+[console_scripts]
+ur5_controller = ur5_motion.main:main
